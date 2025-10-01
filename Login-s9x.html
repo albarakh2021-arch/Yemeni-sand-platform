@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول - يمني سند</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>يمني سند</h1>
+        <p>سجل الدخول للوصول إلى خدماتك</p>
+        <a href="index.html" class="back-link">العودة للرئيسية</a>
+    </header>
+
+    <main class="login-main">
+        <form id="loginForm">
+            <h2>تسجيل الدخول</h2>
+            <input type="email" id="email" placeholder="بريدك الإلكتروني" required>
+            <input type="password" id="password" placeholder="كلمة المرور" required>
+            <button type="submit">دخول</button>
+        </form>
+
+        <form id="registerForm" style="display: none;">
+            <h2>إنشاء حساب جديد</h2>
+            <input type="text" id="regName" placeholder="اسمك الكامل" required>
+            <input type="email" id="regEmail" placeholder="بريدك الإلكتروني" required>
+            <input type="password" id="regPassword" placeholder="كلمة مرور قوية" required>
+            <button type="submit">تسجيل</button>
+        </form>
+
+        <button id="toggleForm">ليس لديك حساب؟ سجل الآن</button>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

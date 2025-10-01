@@ -1,0 +1,26 @@
+.login-main, .dashboard-main {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.login-main form, .dashboard-main section {
+    margin-bottom: 20px;
+}
+
+.login-main input, .login-main button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.back-link { color: white; text-decoration: none; }
+
+.stats p { font-size: 1.2em; color: #007a5e; }
+#bookingsList { list-style: none; padding: 0; }
+#bookingsList li { padding: 10px; border-bottom: 1px solid #eee; }

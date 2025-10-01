@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم - يمني سند</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>يمني سند - لوحة التحكم</h1>
+        <a href="index.html">الرئيسية</a> | <button id="logoutBtn">خروج</button>
+    </header>
+
+    <main class="dashboard-main">
+        <h2>مرحبًا، <span id="userName"></span></h2>
+        <section class="stats">
+            <h3>إحصائياتك</h3>
+            <p>عدد الحجوزات: <span id="bookingCount">0</span></p>
+            <p>إجمالي العمولات المكتسبة: <span id="totalCommission">0 ريال</span></p>
+        </section>
+
+        <section class="bookings">
+            <h3>حجوزاتك الأخيرة</h3>
+            <ul id="bookingsList"></ul>
+        </section>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
